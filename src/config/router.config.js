@@ -29,6 +29,12 @@ export const asyncRouterMap = [
             component: () => import('@/views/dashboard/Analysis'),
             meta: { title: 'menu.dashboard.analysis', keepAlive: false, permission: ['dashboard'] }
           },
+          {
+            path: '/dashboard/x6/:pageNo([1-9]\\d*)?',
+            name: 'X6',
+            component: () => import('@/views/dashboard/X6'),
+            meta: { title: 'menu.dashboard.analysis', keepAlive: false, permission: ['dashboard'] }
+          },
           // 外部链接
           {
             path: 'https://www.baidu.com/',

@@ -512,6 +512,17 @@ const userNav = options => {
       component: 'Analysis',
       path: '/dashboard/analysis'
     },
+    {
+      name: 'X6',
+      parentId: 1,
+      id: 200,
+      meta: {
+        title: 'X6',
+        show: true
+      },
+      component: 'X6',
+      path: '/dashboard/x6'
+    },
 
     // form
     {
